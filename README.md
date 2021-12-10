@@ -1,1 +1,1 @@
-# rockps
+# Rock Paper Scissors
