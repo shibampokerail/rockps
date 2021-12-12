@@ -9,18 +9,18 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <div class="container">
-    <div class="flex items-center justify-center">
+    <div class="grid grid-cols-1 md:flex items-center justify-center">
         <h1 class="text-6xl font-extrabold text-pink-400">Rock&nbsp;</h1>  <h1 class="text-6xl font-extrabold text-yellow-400 ">Paper&nbsp;</h1><h1 class="text-6xl font-extrabold text-blue-400">Scissors&nbsp;</h1>
     </div>
-    <div class="logo flex items-center justify-center m-7">
-        <img src="img/rock.png" class="hover:scale-105 transform-gpu duration-300" alt="rock">
-        <img src="img/paper.png" class="hover:scale-105 transform-gpu duration-300" alt="paper">
-        <img src="img/scissors.png" class="hover:scale-105 transform-gpu duration-300" alt="scissors">
+    <div class="logo flex my-10 md:flex items-center justify-center m-7">
+        <img src="img/rock.png" class="w-20 md:w-auto hover:scale-105 transform-gpu duration-300" alt="rock">
+        <img src="img/paper.png" class="w-20 md:w-auto hover:scale-105 transform-gpu duration-300" alt="paper">
+        <img src="img/scissors.png" class="w-20 md:w-auto hover:scale-105 transform-gpu duration-300" alt="scissors">
     </div>
     <div class="options items-center justify-center m-3">
-        <div class="button shadow-lg py-4 px-6 m-3 border-4 border-pink-400 rounded-full text-2xl hover:scale-105 transform-gpu duration-300">Singleplayer</div>
-        <div class="button shadow-lg py-4 px-6 m-3 border-4 border-yellow-400 rounded-full text-2xl hover:scale-105 transform-gpu duration-300">Multiplayer</div>
-        <div class="button shadow-lg py-4 px-6 m-3 border-4 border-blue-400 rounded-full text-2xl hover:scale-105 transform-gpu duration-300">Extras</div>
+        <a href="singleplayer.html"><div class="button text-xl md:text-2xl shadow-lg py-4 px-4 m-3 border-4 border-pink-400 rounded-full  hover:scale-105 transform-gpu duration-300">Singleplayer</div></a>
+        <a href="#"><div class="text-xl md:text-2xl button shadow-lg py-4 px-4 m-3 border-4 border-yellow-400 rounded-full hover:scale-105 transform-gpu duration-300">Multiplayer</div></a>
+        <a href="#"><div class="text-xl md:text-2xl button shadow-lg py-4 px-4 m-3 border-4 border-blue-400 rounded-full hover:scale-105 transform-gpu duration-300">Extras</div></a>
         
     </div>
 </div>
