@@ -19,6 +19,7 @@ $(document).ready(function(){
         window.setTimeout(function(){
             $("#hidden_text").hide(); //run multiplayer arcade here
             fetchAsync(); //run multiplayer arcade here  
+            $("#container").show();
 
         }, 600);    
     });
